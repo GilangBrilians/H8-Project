@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+
+            body{
+                background-color: black;
+            }
+
+            .grid-container {
+                display: grid;
+                grid-template-columns: auto auto;
+                margin-right: 20px;
+            }
+
+            
+            img {
+                position: absolute;
+                left: 0;
+                top: 0;
+                z-index: -10 !important;
+            }
+
+            /* .centered1 {
+                position: absolute;
+                top: 18%;
+                left: 25%;
+                transform: translate(-50%, -50%);
+            }
+
+            .centered2 {
+                position: absolute;
+                top: 25%;
+                left: 25%;
+                transform: translate(-50%, -50%);
+            } */
+            
+            .formCheckout{
+                position: absolute;
+                top: 25%;
+                left: 60%;
+                background-color: blue;
+                padding: 30px;
+                color: white;
+            }
+
+            input{
+                margin-top: 10px;
+                padding: 5px;
+            }
+
+            .block {
+                display: block;
+                width: 50%;
+                border: none;
+                background-color: white;
+                padding: 8px 28px;
+                margin-top: 20px;
+                font-size: 16px;
+                cursor: pointer;
+                text-align: center;
+                color: black;
+            }
+
+        </style>
+    </head>
+
+    <body>
+        <div class="grid-container">
+            <div class="grid-item">
+                <img src="gambar.jpg" alt="Gmabar Mobil" style="background-size: cover;">
+                <!-- <h4 class="centered1" style="color: blue;">Honda</h4>
+                <h1 class="centered2">Brio 2023</h1> -->
+
+            </div>
+
+            <div class="formCheckout">
+                <h3 style="text-align: center;">CHECKOUT</h3>
+                <form>
+                    <input type="text" size="50" placeholder="Card Name"><br>
+                    <input type="text" size="50" placeholder="Card Number"><br>
+                    <input type="text" size="50" placeholder="Certificate Name"><br>
+                    <input type="text" size="50" placeholder="Expired Date"><br>
+                    <input type="text" size="50" placeholder="CVV"><br>
+                    <button type="button" class="block">Complete Order</button>
+                  </form>
+            </div>
+        </div>
+
+    </body>
+</html>

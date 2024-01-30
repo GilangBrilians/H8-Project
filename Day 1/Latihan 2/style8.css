@@ -1,0 +1,15 @@
+h1{
+    text-align: center;
+}
+
+ul.transportasi{
+    list-style-type: square;
+}
+
+ul.lokasi{
+    list-style-type: circle;
+}
+
+ol.lokasi{
+    list-style-type: upper-roman;
+}
