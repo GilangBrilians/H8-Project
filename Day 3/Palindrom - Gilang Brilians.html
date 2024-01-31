@@ -1,0 +1,29 @@
+<!-- Gilang Brilians - BFLP IT 21  -->
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palindrom</title>
+        </head>
+    <body>
+        
+    <script>
+        const kataInput = prompt("Masukkan kata:");
+
+        function reverse(kata) {
+            return kata.split('').reverse().join('');
+        }
+
+        const dibalik = reverse(kataInput);
+
+        if (kataInput === dibalik) {
+            alert("True");
+        } else {
+            alert("false")
+        }
+    </script>
+
+    </body>
+</html>

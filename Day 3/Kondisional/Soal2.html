@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Mengecek Nilai 1-100</title>
+        </head>
+    <body>
+        <h2>cek nilai anda dengan tombol dibawah ini</h2>
+        <button onclick="cekNilai()">cek nilai</button>
+    <script>    
+        function cekNilai() {
+            const userInput = prompt("Masukkan bilangan bulat antara 1-100:");
+            const angka = parseInt(userInput);
+    
+            if (angka > 0 && angka <= 100) {
+                if (angka <= 100 && angka > 80){
+                    alert("A");
+                }
+                else if (angka <= 80 && angka > 60){
+                    alert("B");
+                }
+                else if (angka <= 60 && angka > 40){
+                    alert("C");
+                }
+                else{
+                    alert("D")
+                }
+            } else {
+                alert("nilai yang dimasukan tidak valid");
+            }
+        }
+    </script>
+
+    </body>
+</html>
