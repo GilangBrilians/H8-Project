@@ -60,3 +60,5 @@ var setence = "Hello,World,JavaScript"
 var kataArray = setence.split(',')
 
 console.log(kataArray)
+
+
