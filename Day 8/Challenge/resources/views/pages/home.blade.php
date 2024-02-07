@@ -1,5 +1,5 @@
 
-@extends('layout.main')
+@include('layout.main')
 
 @section('title','Home')
 
@@ -107,5 +107,7 @@
       </div>
   </div>
 </div>
+
+@endsection
 
 

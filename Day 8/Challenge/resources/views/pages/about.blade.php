@@ -1,4 +1,4 @@
-@extends('layout.main')
+@include('layout.main')
 
 @section('title','Home')
 
@@ -44,3 +44,5 @@
         <div class="col-md-6 col-12 right-pic"></div>
     </div>
 </div>
+
+@endsection
